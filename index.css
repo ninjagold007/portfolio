@@ -1,4 +1,52 @@
 body {
-	background-color: #DDE0E3;    /* Light gray */
+	background-color: #002244;    /* navy blue */
+	color: #FFFFFF; /* white */
 	text-align: center;
+}
+ul {
+	text-align: center;
+	list-style: inside;
+	color: #FFFFFF; /* white */
+
+}
+
+hr {
+	border-color: #fb4f14; /* broncos orange */
+}
+
+h1, h2, h3, h4{
+	font-size: 30px;
+}
+
+a:link, a:visited {
+	color: #FFFFFF; /* white */
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+.navi-bar {
+	list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #fb4f14; /* broncos orange */
+}
+
+.navi-bar li {
+  float: left;
+}
+
+.navi-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi-bar li a:hover {
+	background-color: #FFFFFF; /* white */
+}
 }
