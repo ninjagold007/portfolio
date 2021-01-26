@@ -47,6 +47,9 @@ a:hover {
 }
 
 .navi-bar li a:hover {
-	background-color: #FFFFFF; /* white */
+	background-color: #000000; /* black */
 }
+
+.active {
+  background-color: #00CC00; /* light green */
 }
