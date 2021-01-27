@@ -2,6 +2,7 @@ body {
 	background-color: #002244;    /* navy blue */
 	color: #FFFFFF; /* white */
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 ul {
 	text-align: center;
@@ -12,10 +13,14 @@ ul {
 
 hr {
 	border-color: #fb4f14; /* broncos orange */
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 h1, h2, h3, h4{
 	font-size: 30px;
+	margin-bottom: 0px;
+	margin-top: 10px;
 }
 
 a:link, a:visited {
@@ -35,7 +40,13 @@ a:hover {
 }
 
 .navi-bar li {
-  float: left;
+ 	border-right: 1px solid #bbb;
+	float: left;
+}
+
+.navi-bar li:last-child {
+        border-right: none;
+	float: right;
 }
 
 .navi-bar li a {
@@ -52,4 +63,20 @@ a:hover {
 
 .active {
   background-color: #00CC00; /* light green */
+}
+
+.links {
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#button{
+  background-color: #fb4f14;
+  color: white;
+  padding: 1em 1.5em;
+	margin-top: 1.5em;
+  text-decoration: none;
+}
+
+#button:hover{
+	background-color: #000000
 }
