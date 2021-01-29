@@ -80,3 +80,17 @@ a:hover {
 #button:hover{
 	background-color: #000000
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #000000; /* Red */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 401px) {
+  body {
+    background-color: #002244; /* navy  Blue */
+  }
+}
