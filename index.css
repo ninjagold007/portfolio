@@ -1,9 +1,15 @@
 body {
-	background-color: #002244;    /* navy blue */
-	color: #FFFFFF; /* white */
-	text-align: center;
-	font-family: "Times New Roman", Times, serif;
+        background-color: #002244;    /* navy blue */
+        color: #FFFFFF; /* white */
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
+
 ul {
 	text-align: center;
 	list-style: inside;
@@ -15,12 +21,13 @@ hr {
 	border-color: #fb4f14; /* broncos orange */
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	width: 100%;
 }
 
 h1, h2, h3, h4{
+	margin-bottom: 0;
+        padding-bottom: 0;
 	font-size: 30px;
-	margin-bottom: 0px;
-	margin-top: 10px;
 }
 
 a:link, a:visited {
@@ -32,7 +39,8 @@ a:hover {
 }
 
 .navi-bar {
-	list-style-type: none;
+	  width: 100%;
+          list-style-type: none;
 	  margin: 0;
 	  padding: 0;
 	  overflow: hidden;
@@ -83,14 +91,28 @@ a:hover {
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: #000000; /* Red */
-  }
+     .link-container {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex: 1;
+    }
+    .links { 
+	margin: 5px 0 0 0;
+    } 
+    
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 401px) {
-  body {
-    background-color: #002244; /* navy  Blue */
-  }
+   .link-container{
+	display: flex;
+	flex-direction: row;
+    }
+   .links {
+	margin: 15px 30px 0px 30px;
+   }
+   #button {
+	margin: 3px 0 0 0;
+   }
 }
