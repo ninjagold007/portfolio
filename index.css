@@ -90,14 +90,15 @@ a:hover {
 }
 
 #my_pic {
-	witdh: 300px;
-	height: 300px;
+        witdh: 300px;
+        height: 300px;
 }
 
 #broncos {
-	width: 400px;
-	height: 250px;
-}								
+        width: 400px;
+        height: 250px;
+}
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
