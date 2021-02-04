@@ -12,6 +12,10 @@ ul {
 
 }
 
+li {
+	padding-bottom: 10px;
+}
+
 hr {
 	border-color: #fb4f14; /* broncos orange */
 	margin-bottom: 0px;
@@ -44,6 +48,7 @@ a:hover {
 
 .navi-bar li {
  	border-right: 1px solid #bbb;
+	padding-bottom: 0px;
 	float: left;
 }
 
