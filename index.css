@@ -3,11 +3,6 @@ body {
         color: #FFFFFF; /* white */
         text-align: center;
         font-family: "Times New Roman", Times, serif;
-	display: flex;
-  	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 }
 
 ul {
@@ -81,13 +76,23 @@ a:hover {
   background-color: #fb4f14;
   color: white;
   padding: 1em 1.5em;
-	margin-top: 1.5em;
+  margin-top: 1.5em;
   text-decoration: none;
 }
 
 #button:hover{
 	background-color: #000000
 }
+
+#my_pic {
+	witdh: 300px;
+	height: 300px;
+}
+
+#broncos {
+	width: 400px;
+	height: 250px;
+}								
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -108,11 +113,30 @@ a:hover {
    .link-container{
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 20px;
     }
    .links {
 	margin: 15px 30px 0px 30px;
    }
    #button {
 	margin: 3px 0 0 0;
+   }
+   .format_box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+        align-items: center;
+	flex-wrap: nowrap;
+   }
+   .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+        align-items: center;
+   .format_box:first-of-type {
+	width: 33%
+   }
+   .format_box:last-of-type {
+        width: 33%
    }
 }
